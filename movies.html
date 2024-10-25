@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Movie List Flexbox</title>
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            background-color: #FFF1DB;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .moviescont {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: -10px;
+        }
+
+        .movie {
+            width: 150px;
+            height: 200px;
+            margin: 10px;
+            padding: 10px;
+            background-color: #BC7C7C;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .movie:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        h3 {
+            margin-bottom: 20px;
+        }
+
+        h2,
+        h5 {
+            margin: 0;
+        }
+
+        p {
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Movie List</h3>
+
+        <div class="moviescont">
+
+            <div class="movie">
+                <h2>My Ex and Whys</h2>
+                <p>2017</p>
+                <h5>Cathy Garcia-Sampana</h5>
+                <p>Romantic Comedy, Drama</p>
+            </div>
+
+            <div class="movie">
+                <h2>The Hows of Us</h2>
+                <p>2018</p>
+                <h5>Cathy Garcia-Sampana</h5>
+                <p>Romace, Drama</p>
+            </div>
+
+            <div class="movie">
+                <h2>Exes Baggage</h2>
+                <p>2018</p>
+                <h5>Cathy Garcia-Sampana</h5>
+                <p>Romance, Comedy</p>
+            </div>
+
+            <div class="movie">
+                <h2>Alone/Together</h2>
+                <p>2019</p>
+                <h5>Antoinette Jadaone</h5>
+                <p>Romantic Drama</p>
+            </div>
+
+            <div class="movie">
+                <h2>Hello, Love, Goodbye </h2>
+                <p>2020</p>
+                <h5>Cathy Garcia-Sampana</h5>
+                <p>Romantic Drama</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

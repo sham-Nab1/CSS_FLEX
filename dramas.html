@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dramas List Flexbox</title>
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            background-color: #F5F5F7;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .dramascont {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .drama {
+            flex: 0 1 250px;
+            margin: 15px;
+            padding: 15px;
+            background-color: #FF8A8A;
+            color: black;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .drama:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        h3 {
+            margin-bottom: 20px;
+        }
+
+        h2,
+        h5 {
+            margin: 0;
+        }
+
+        p {
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Dramas List</h3>
+
+        <div class="dramascont">
+            <div class="drama">
+                <p>Romance, Comedy</p>
+                <h2>Crash Landing on You</h2>
+                <p>2019-2020</p>
+                <h5>Ratings: 7.5/10</h5>
+            </div>
+
+            <div class="drama">
+                <p>Fantasy, Romance</p>
+                <h2>Goblin</h2>
+                <p>2016-2017</p>
+                <h5>Ratings: 8.6/10</h5>
+            </div>
+
+            <div class="drama">
+                <p>Drama/Romance</p>
+                <h2>The World of the Married</h2>
+                <p>2020</p>
+                <h5>Ratings: 8.3/10/h5>
+            </div>
+
+            <div class="drama">
+                <p>Romance, Sports</p>
+                <h2>Lovely Runner</h2>
+                <p>2024</p>
+                <h5>Ratings: 7.8/10</h5>
+            </div>
+
+            <div class="drama">
+                <p>Drama, Mystery</p>
+                <h2>Queen of Tears</h2>
+                <p>2024</p>
+                <h5>Ratings: 9.0/10</h5>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
